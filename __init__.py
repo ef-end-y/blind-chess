@@ -1,0 +1,14 @@
+from .blind_chess import ChessGame
+from .blind_chess import (
+    WAIT_CORRECT_POSITION,
+    WAIT_HUMAN_MOVE,
+    WAIT_HUMAN_TAKE,
+    WAIT_PC_MOVE_ON_BOARD,
+    GAME_MOVE,
+    GAME_PC_MOVE,
+    GAME_PROMOTION_REQUEST,
+    GAME_PROMOTION,
+    GAME_CHECKMATE,
+    SLIDING_TIME_SEC,
+    PROMOTION_PIECES,
+)
