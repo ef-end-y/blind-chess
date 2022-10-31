@@ -2,7 +2,7 @@
 Blind chess is a layer between a chess device and a chess engine ([Stockfish](https://stockfishchess.org/)).
 
 ## Why blind?
-Suppose you want to create a chess machine like [Mephisto](https://en.wikipedia.org/wiki/Mephisto_(chess_computer)). This chess machine can't see which piece is on which square. But the physical board knows which squares are occupied by pieces. Chess pieces have magnets and the chessboard has sensors which react on the magnetic field. So the device knows what square is occupied. 
+Suppose you want to create a chess machine like [Mephisto](https://en.wikipedia.org/wiki/Mephisto_(chess_computer)). This chess machine can't see pieces. But the physical board knows which squares are occupied by pieces. Chess pieces have magnets and the chessboard has sensors which react on the magnetic field. So the device knows what square is occupied. 
 
 When a person makes a move, he picks up a piece, the device registers that the square is empty. When he puts the piece on the board in another position, the device registers movement of the piece.
 
